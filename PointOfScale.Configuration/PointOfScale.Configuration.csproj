@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PointOfScale.Domain.Interfaces\PointOfScale.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\PointOfScale.Infrastructure\PointOfScale.Infrastructure.csproj" />
+    <ProjectReference Include="..\PointOfScale.Presentation\PointOfScale.Presentation.csproj" />
+  </ItemGroup>
+
+</Project>
